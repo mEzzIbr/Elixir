@@ -11,8 +11,8 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-
-                    <title> PM2R Dashboard </title>
+                <link href='https://fonts.googleapis.com/css?family=Alexandria' rel='stylesheet' /> 
+                    <title> Elixir | الاكسير </title>
                     <meta charSet="UTF-8"/>
                     <meta
                         name="viewport"

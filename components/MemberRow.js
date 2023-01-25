@@ -5,28 +5,29 @@ export default function MemberRow (props){
 
     return(
 
-<tr>
-                                           
-                                            <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap md:w-1/2">
-                                                <div className="flex items-center">
-                                                    <div className="w-9 h-9 shrink-0 mr-2 sm:mr-3">
-                                                        <img className="w-9 h-9 rounded-full" src={props.img} width="36" height="36" alt="Transaction 01"/>
-                                                    </div>
-                                                    <div className="font-medium text-slate-800 mr-6">{props.name} </div>
-                                                </div>
-                                            </td>
-                                            <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
-                                                <div className="text-left">22/01/2022</div>
-                                            </td>
-                                            <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap">
-                                                <div className="text-left">
-                                                    <div className="text-xs inline-flex font-medium bg-slate-100 text-slate-500 rounded-full text-center px-2.5 py-1">Pending</div>
-                                                </div>
-                                            </td>
-                                            <td className="px-2 first:pl-5 last:pr-5 py-3 whitespace-nowrap w-px">
-                                                <div className="text-right text-slate-700 font-medium">-$1,299.22</div>
-                                            </td>
-                                        </tr>
+        <tr>
+        <td>
+       
+        </td>
+        <th scope="row" className="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white">
+            <img className="w-10 h-10 rounded-full" src={props.img} alt="Jese image"/>
+            <div className="">
+                <div className="text-base font-semibold">{props.name}</div>
+                <div className="font-normal text-gray-500">neil.sims@flowbite.com</div>
+            </div>  
+        </th>
+        <td className="px-6 py-4">
+            مطور
+        </td>
+        <td className="px-6 py-4">
+            <div className="flex items-center">
+                <div className="h-2.5 w-2.5 rounded-full bg-green-500 mr-2"></div> فعّال
+            </div>
+        </td>
+        <td className="px-6 py-4">
+            <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">تعديل</a>
+        </td>
+    </tr>
     )
 
 }
